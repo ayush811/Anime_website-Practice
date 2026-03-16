@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Jayarajan — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Raleway:wght@200;300;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Scanline CRT overlay -->
+  <div class="scanlines"></div>
+
+  <!-- Rain canvas -->
+  <canvas id="rain-canvas"></canvas>
+
+  <!-- Moon -->
+  <div class="moon parallax-layer" data-speed="0.02"></div>
+
+  <!-- Sakura petals -->
+  <div class="sakura-container" id="sakura"></div>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <h1 class="parallax-layer" data-speed="0.05">AYUSH JAYARAJAN</h1>
+    <p class="tagline parallax-layer" data-speed="0.03">
+      developer &#183; designer &#183; dreamer<span class="cursor-blink"></span>
+    </p>
+    <div class="scroll-indicator">
+      <span>scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2 class="section-title reveal">About</h2>
+    <div class="about-text reveal">
+      I build things for the web with a love for <span class="highlight">clean design</span> and
+      <span class="highlight">thoughtful code</span>. Somewhere between late-night coding sessions and
+      lofi beats, I find my flow. Always learning, always creating.
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2 class="section-title reveal">Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <span class="card-icon">&#9776;</span>
+        <h3>Task Flow</h3>
+        <p>A minimal task management app with drag-and-drop, dark mode, and smooth animations.</p>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Firebase</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <span class="card-icon">&#9835;</span>
+        <h3>Lofi Radio</h3>
+        <p>A web-based lofi music player with visualizer, ambient backgrounds, and curated playlists.</p>
+        <div class="tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">Web Audio</span>
+          <span class="tag">Canvas</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <span class="card-icon">&#10047;</span>
+        <h3>Pixel Garden</h3>
+        <p>An interactive pixel art editor with custom palettes and export options for sprites.</p>
+        <div class="tags">
+          <span class="tag">HTML Canvas</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">PWA</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2 class="section-title reveal">Contact</h2>
+    <div class="contact-content reveal">
+      <p>Let's connect — I'd love to hear from you.</p>
+      <div class="contact-links">
+        <a href="mailto:hello@ayush.dev" class="contact-link">
+          <div class="contact-icon">&#9993;</div>
+          <span class="contact-label">Email</span>
+        </a>
+        <a href="#" class="contact-link">
+          <div class="contact-icon">&#128187;</div>
+          <span class="contact-label">GitHub</span>
+        </a>
+        <a href="#" class="contact-link">
+          <div class="contact-icon">&#128220;</div>
+          <span class="contact-label">LinkedIn</span>
+        </a>
+        <a href="#" class="contact-link">
+          <div class="contact-icon">&#9998;</div>
+          <span class="contact-label">Blog</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2026 Ayush Jayarajan &middot; crafted with late nights &amp; lofi beats
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
